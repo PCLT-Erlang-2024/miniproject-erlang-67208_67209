@@ -11,12 +11,6 @@ following illustration:
 
 ![Project flow](https://github.com/cpldi/go-mini1-67208_67209/blob/main/Illustration.png)
 
-#### Parametrization
-
-Our implementation of the core product reservation accepts a given number of belts (and trucks by consequence) and a given
-max capacity for trucks as arguments. If no value is specified the default number of belts is 3 and the default max capacity
-of each truck is 10.
-
 The ```receive``` statement is crucial for the actor based concurrency model to allow processes to comunicate with each other.
 
 ### Components
